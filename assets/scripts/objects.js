@@ -7,4 +7,12 @@ const person = {
   }
 };
 
-person.greet();
+// ...
+
+// person.age = 31;
+delete person.age;
+// person.age = null;
+// person.age = undefined;
+person.isAdmin = true;
+
+console.log(person);
